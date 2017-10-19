@@ -30,6 +30,10 @@ defmodule Twilex.Messenger do
     Poison.decode!(body, keys: :atom)
   end
 
+  defp sms(from, to, body, "") do
+    {:form, [To: to, From: from, Body: body]}
+  end
+
   defp sms(from, to, body, media) do
     {:form, [To: to, From: from, Body: body, MediaUrl: media]}
   end
