@@ -4,7 +4,7 @@ defmodule Twilex.Mixfile do
   def project do
     [
       app: :twilex,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.5",
       description: "A Twilio client for elixir.",
       build_embedded: Mix.env() == :prod,

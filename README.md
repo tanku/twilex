@@ -8,7 +8,7 @@ Twilex is an Elixir Client to send SMS/MMS using Twilio.
 
   ```elixir
   def deps do
-    [{:twilex, "~> 0.1.0"}]
+    [{:twilex, "~> 0.2.0"}]
   end
   ```
 
